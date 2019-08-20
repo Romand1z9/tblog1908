@@ -1,0 +1,22 @@
+{
+  "name": "tblog",
+  "version": "1.0.0",
+  "description": "tblog1908",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [
+    "tblog1908"
+  ],
+  "author": "Romand1z9",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
