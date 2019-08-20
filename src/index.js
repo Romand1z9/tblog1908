@@ -1,2 +1,3 @@
-const xvar = 22;
-console.log('Started!!!', xvar);
+import {HeaderComponent} from './components/header.component'
+const header = new HeaderComponent('header')
+console.log(header)
