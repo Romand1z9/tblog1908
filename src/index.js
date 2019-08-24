@@ -7,11 +7,11 @@ import {LoaderComponent} from './components/loader.component'
 
 new HeaderComponent('header')
 const nav = new NavigationComponent('navigation')
-const loader = new FavoriteComponent('loader')
+const loader = new LoaderComponent('loader')
 
 const posts = new PostsComponent('posts', {loader})
 const create = new CreateComponent('create')
-const favorite = new FavoriteComponent('favorite')
+const favorite = new FavoriteComponent('favorite', {loader})
 
 nav.registerTabs([
     {name: 'posts', component: posts},
